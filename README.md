@@ -1,3 +1,5 @@
+## Change to Master Branch to view and download the project
+
 # CaseStudy
 Case study for Bachelor's Thesis
 Project for Hololens 2 using Unity
