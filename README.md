@@ -9,7 +9,9 @@ Visual Studio Version 2022
 MRTK Version: 2.8.3
 
 This Project can be opened using Unity Hub.
+
 6 different Versions of the game can be played.
+
 To Upload the Game to Hololens 2:
   - In Unity (Hub):
     - Open the Project
