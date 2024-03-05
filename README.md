@@ -3,7 +3,9 @@ Case study for Bachelor's Thesis
 Project for Hololens 2 using Unity
 
 Unity Version: 2022.3.1.13f
+
 Visual Studio Version 2022
+
 MRTK Version: 2.8.3
 
 This Project can be opened using Unity Hub.
