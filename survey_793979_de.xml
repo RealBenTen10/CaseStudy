@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire id="793979">
+  <title>Studie zu Optimierungen mittels Hand-Tracking in erweiterter Realität (augmented Reality)</title>
+  <investigator/>
+  <dataCollector/>
+  <questionnaireInfo>
+    <position>before</position>
+    <text>Vielen Dank, dass Sie an dieser Studie teilnehmen</text>
+    <administration>self</administration>
+  </questionnaireInfo>
+  <questionnaireInfo>
+    <position>after</position>
+    <text>Vielen Dank, dass Sie an dieser Studie teilgenommen haben</text>
+    <administration>self</administration>
+  </questionnaireInfo>
+  <section id="79610">
+    <sectionInfo>
+      <position>title</position>
+      <text>Persönliche Angaben</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Geschlecht:</text>
+      <response varName="Geschlecht">
+        <fixed>
+          <category>
+            <label>Weiblich</label>
+            <value>AO01</value>
+          </category>
+          <category>
+            <label>Männlich</label>
+            <value>AO02</value>
+          </category>
+          <category>
+            <label>nicht-binär</label>
+            <value>AO04</value>
+          </category>
+          <category>
+            <label>keine Angabe</label>
+            <value>AO05</value>
+          </category>
+          <category>
+            <label> selbst beschreiben: </label>
+            <value>-oth-</value>
+            <contingentQuestion varName="Geschlechtother">
+              <text> selbst beschreiben: </text>
+              <length>24</length>
+              <format>longtext</format>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;Alter:&lt;/p&gt;</text>
+      <response varName="Alter">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="79612">
+    <sectionInfo>
+      <position>title</position>
+      <text>Fragen zu erweiterter Realität (AR)</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Wie würden Sie erweiterte Realität (AR) definieren?</text>
+      <response varName="DefinitionAR">
+        <fixed>
+          <category>
+            <label>AR bezieht sich auf eine virtuelle Welt, die völlig von der realen Welt getrennt ist</label>
+            <value>AO01</value>
+          </category>
+          <category>
+            <label>AR bezieht sich auf die Integration von virtuellen Elementen in die reale Welt</label>
+            <value>AO02</value>
+          </category>
+          <category>
+            <label>AR bezieht sich auf erweiterte visuelle Effekte in Filmen</label>
+            <value>AO03</value>
+          </category>
+          <category>
+            <label>AR bezieht sich auf die Fähigkeit von Menschen, ihre Umgebung ohne technologische Hilfe zu erweitern</label>
+            <value>AO04</value>
+          </category>
+          <category>
+            <label>Keine der Definitionen trifft für mich zu</label>
+            <value>AO05</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Wie oft haben Sie bereits erweiterte Realität (AR), virtuelle Realität (VR) oder vermischte Realität (MR) benutzt?</text>
+      <response varName="VorkenntnisseAR">
+        <fixed>
+          <category>
+            <label>Nie benutzt</label>
+            <value>AO01</value>
+          </category>
+          <category>
+            <label>1-2 mal benutzt</label>
+            <value>AO02</value>
+          </category>
+          <category>
+            <label>3-5 mal benutzt</label>
+            <value>AO03</value>
+          </category>
+          <category>
+            <label>6+ mal benutzt</label>
+            <value>AO04</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="79613">
+    <sectionInfo>
+      <position>title</position>
+      <text>Persönliche Einschätzung</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Wie sehr stimmen Sie folgenden Aussagen zu?</text>
+      <subQuestion varName="G04Q19_FFF">
+        <text>Produkte, die künstliche Intelligenz verwenden, sind benutzerfreundlicher</text>
+      </subQuestion>
+      <subQuestion varName="G04Q19_FFF2">
+        <text>Ich glaube, dass ich in den KI unterstützten Runden besser abschneiden werde, als in den normalen Runden</text>
+      </subQuestion>
+      <subQuestion varName="G04Q19_FFF3">
+        <text>In einem Spieler versus Spieler (PvP) Spiel, hat ein Spieler mit KI Unterstützung einen Vorteil</text>
+      </subQuestion>
+      <response varName="G04Q19">
+        <fixed>
+          <category>
+            <label>stimme stark zu</label>
+            <value>A</value>
+          </category>
+          <category>
+            <label>stimme zu</label>
+            <value>B</value>
+          </category>
+          <category>
+            <label>neutral</label>
+            <value>C</value>
+          </category>
+          <category>
+            <label>stimme nicht zu</label>
+            <value>D</value>
+          </category>
+          <category>
+            <label>stimme gar nicht zu</label>
+            <value>E</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="79621">
+    <sectionInfo>
+      <position>title</position>
+      <text>Fragen zu künstlicher Intelligenz (KI)</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Treffen folgende Aussagen bei Ihnen zu?</text>
+      <subQuestion varName="G03Q14_R1">
+        <text>Ich kann zwischen intelligenten und nicht-intelligenten Geräten unterscheiden</text>
+      </subQuestion>
+      <subQuestion varName="G03Q14_R2">
+        <text>Ich weiß nicht, wie mir KI helfen kann</text>
+      </subQuestion>
+      <subQuestion varName="G03Q14_R3">
+        <text>Ich kann die verwendeten KI-Systeme in den von mir benutzten Anwendungen identifizieren</text>
+      </subQuestion>
+      <subQuestion varName="G03Q14_R4">
+        <text>Ich kann gekonnt KI Anwendungen in meiner täglichen Arbeit benutzen</text>
+      </subQuestion>
+      <subQuestion varName="G03Q14_R5">
+        <text>Normalerweise fällt es mir schwer, neue KI Anwendungen oder Produkte zu benutzen</text>
+      </subQuestion>
+      <subQuestion varName="G03Q14_R12">
+        <text>Ich kann KI Anwendungen und Produkte verwenden, um meine Arbeitseffizienz zu steigern</text>
+      </subQuestion>
+      <subQuestion varName="G03Q14_R6">
+        <text>Ich kann die Fähigkeiten und Einschränkungen einer KI Anwendung beurteilen, wenn ich sie eine Zeit lang benutzt habe</text>
+      </subQuestion>
+      <subQuestion varName="G03Q14_R7">
+        <text>Ich kann eine geeignete Lösung auswählen, wenn mir ein intelligenter Agent (smart agent) eine Reihe von Lösungen vorschlägt</text>
+      </subQuestion>
+      <subQuestion varName="G03Q14_R8">
+        <text>Ich kann die passendste KI Anwendung für eine bestimme Aufgabe auswählen, wenn mir mehr als eine Anwendung zur Verfügung steht</text>
+      </subQuestion>
+      <subQuestion varName="G03Q14_R9">
+        <text>Ich halte mich immer an ethische Grundsätze wenn ich KI Anwendungen oder Produkte verwende</text>
+      </subQuestion>
+      <subQuestion varName="G03Q14_R11">
+        <text>Ich habe keine Bedenken bei Datenschutz und Informationssicherheit, wenn ich KI Anwendungen oder Produkte benutze</text>
+      </subQuestion>
+      <subQuestion varName="G03Q14_R10">
+        <text>Ich bin immer auf der Hut vor dem Missbrauch von KI Technologie</text>
+      </subQuestion>
+      <response varName="G03Q14">
+        <fixed>
+          <category>
+            <label>Zutreffend</label>
+            <value>AO01</value>
+          </category>
+          <category>
+            <label>Nicht zutreffend</label>
+            <value>AO02</value>
+          </category>
+          <category>
+            <label>keine Antwort</label>
+            <value>AO03</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="79552">
+    <sectionInfo>
+      <position>title</position>
+      <text>Fragen zum Spiel</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Welche Aufgabe erwartet Sie in dem Spiel, das Sie gleich spielen werden?</text>
+      <response varName="Aufgabe_SQ001">
+        <fixed>
+          <category>
+            <label>Kugeln schnell anklicken</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Aufgabe_SQ002">
+        <fixed>
+          <category>
+            <label>Pfeile suchen</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Aufgabe_SQ003">
+        <fixed>
+          <category>
+            <label>Gegner abschießen</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Aufgabe_SQ004">
+        <fixed>
+          <category>
+            <label>KI besiegen</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Aufgabe_SQ005">
+        <fixed>
+          <category>
+            <label>Kugeln bewegen</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Wie werden Sie von der KI unterstützt?</text>
+      <response varName="Aufgabe2_SQ001">
+        <fixed>
+          <category>
+            <label>Der Pfad wird personalisiert</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Aufgabe2_SQ002">
+        <fixed>
+          <category>
+            <label>Die Kugeln werden vergrößert</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Aufgabe2_SQ003">
+        <fixed>
+          <category>
+            <label>Die Kugeln werden bewegt</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Aufgabe2_SQ004">
+        <fixed>
+          <category>
+            <label>Der Pfad wird breiter</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Wann müssen Sie dem angezeigten Pfad folgen?</text>
+      <response varName="Aufgabe3_SQ001">
+        <fixed>
+          <category>
+            <label>In den KI Runden</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Aufgabe3_SQ002">
+        <fixed>
+          <category>
+            <label>In den normalen Runden</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Aufgabe3_SQ003">
+        <fixed>
+          <category>
+            <label>In der Kalibrierungsrunde</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="Aufgabe3_SQ004">
+        <fixed>
+          <category>
+            <label>Nie</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="79614">
+    <sectionInfo>
+      <position>title</position>
+      <text>Spiel spielen</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Bitte setzen Sie nun die Hololens 2 Brille auf und spiele das Spiel</text>
+      <administration>self</administration>
+    </sectionInfo>
+  </section>
+  <section id="79553">
+    <sectionInfo>
+      <position>title</position>
+      <text>Persönliche Einschätzung</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Wie sehr stimmen Sie folgenden Aussagen zu?</text>
+      <subQuestion varName="G07Q18_SQ001">
+        <text>Wenn ich durch KI unterstützt werde, steigert sich meine individuelle Leistung</text>
+      </subQuestion>
+      <subQuestion varName="G07Q18_SQ002">
+        <text>In den KI unterstützten Runden war ich schneller, als in den normalen Runden</text>
+      </subQuestion>
+      <subQuestion varName="G07Q18_SQ005">
+        <text>Ich empfand den angezeigten Pfad als hilfreich</text>
+      </subQuestion>
+      <subQuestion varName="G07Q18_SQ003">
+        <text>Ich hatte Probleme beim Antippen der Kugeln</text>
+      </subQuestion>
+      <subQuestion varName="G07Q18_SQ004">
+        <text>Ich würde in zukunft KI als Unterstützung benutzen, um somit meine Leistung zu steigern</text>
+      </subQuestion>
+      <response varName="G07Q18">
+        <fixed>
+          <category>
+            <label>stimme stark zu</label>
+            <value>AO01</value>
+          </category>
+          <category>
+            <label>stimme zu</label>
+            <value>AO02</value>
+          </category>
+          <category>
+            <label>neutral</label>
+            <value>AO03</value>
+          </category>
+          <category>
+            <label>stimme nicht zu</label>
+            <value>AO04</value>
+          </category>
+          <category>
+            <label>stimme gar nicht zu</label>
+            <value>AO05</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+</questionnaire>
