@@ -2,6 +2,15 @@
 
 ## CaseStudy
 Case study for Bachelor's Thesis
+
+
+### Survey
+Along with the game, a survey was part of the Bachelor's Thesis. The Files in this Branch contain the survey in different data formats.
+
+The survey was made using LimeSurvey.
+
+### Unity Project
+
 Project for Hololens 2 using Unity
 
 Unity Version: 2022.3.1.13f
