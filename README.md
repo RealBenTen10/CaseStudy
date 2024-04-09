@@ -5,7 +5,7 @@ Case study for Bachelor's Thesis
 
 
 ### Survey
-Along with the game, a survey was part of the Bachelor's Thesis. The Files in this Branch contain the survey in different data formats.
+Along with the game, a survey was part of the Bachelor's Thesis. The Files in this Branch contain the survey in different data formats. Additionally, the collected data can be viewed in the data.xsl file.
 
 The survey was made using LimeSurvey.
 
